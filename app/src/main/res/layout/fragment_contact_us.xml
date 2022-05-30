@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center|top"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:backgroundTint="@color/white"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_background"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/text_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="left"
+        android:text="This is simple Employee Management Application developed by xyz.\n\nIf you are facing any issue or if you have any question feel free to reach us please find below contact details\n\nXYZ name\nCountry Name\n+1 (222)222-2222\nemail\nAll Rights Reserved."
+        android:textSize="20sp" />
+
+</LinearLayout>
